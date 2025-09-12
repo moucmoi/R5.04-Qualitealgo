@@ -1,0 +1,8 @@
+main: main.o bonjour.o
+	gcc -std=c11 -Wall -Wextra -O0 main.o bonjour.o -o main  //versions warnings optimisation
+
+main.o:main.c bonjour.h
+	gcc -c main.c
+
+bonjour.o:bonjour.c bonjour.h
+	gcc -c bonjour.c

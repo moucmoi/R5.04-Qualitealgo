@@ -1,0 +1,4 @@
+main:
+	gcc -c main.c
+	gcc -c bonjour.c
+	gcc main.o bonjour.o -o test

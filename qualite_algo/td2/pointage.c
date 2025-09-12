@@ -5,6 +5,7 @@ int main(void){
     int x = 3;
     int *px = &x;
     *px = *px + 1;
+    printf("%ld\n",sizeof(x));
     printf("%d\n",x);
     printf("%p",(void *)(px+1));
 }

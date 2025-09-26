@@ -8,6 +8,7 @@ struct Noeud{
     struct Noeud * noeudSO;
     struct Noeud * noeudSE;
     int nbelements;
+    int tabLimit;
 };
 
 struct spriteR{
